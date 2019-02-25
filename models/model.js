@@ -1,12 +1,8 @@
-// Importing our ORM to make an object model with methods that interact with our database
-var orm = require("../config/orm.js");
+// Importing our constructor to make an instance of it.
+var Item = require("./itemConstructor.js/index.js")
 
 console.log(`MODEL.JS LOADED`)
 
-var drifter = {
-
-    // METHODS GO HERE
-
-}
+var drifter = new Item ();
 
 module.exports = drifter;
